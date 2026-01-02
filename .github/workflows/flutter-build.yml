@@ -22,8 +22,8 @@ jobs:
       - name: Flutter doctor
         run: flutter doctor
 
-      - name: Create Android platform
-        run: flutter create --platforms android .
+      - name: Create Android platform (FIXED)
+        run: flutter create --platforms android --project-name laporan_toko_app .
 
       - name: Get dependencies
         run: flutter pub get
